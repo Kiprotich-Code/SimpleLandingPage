@@ -1,0 +1,112 @@
+body {
+    font-size: 2vw;
+    margin: auto;
+}
+
+button {
+    padding: 15px;
+    background-color: blue;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+}
+
+input {
+    height: 40px;
+    color: black;
+
+}
+
+a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cma--logo{
+    color: goldenrod;
+    padding-top: 30px;
+}
+
+.header {
+    height: 90vh;
+    background-image: url(./assets/images/index.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* Styling for the about section */
+.about {
+    background-image: url(./assets/images/olevs-s888-auto-date-quartz-watch-3.jpeg);
+    background-size: cover;
+    padding: 20px;
+    margin: 0 0 10px 0;
+}
+
+#cont-2, #cont-0{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-left: 45%;
+    padding: 20px;
+}
+
+#cont-1 {
+    width: 60%;
+    background-color: goldenrod;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+/* Styling for hero sec */
+.hero {
+    padding: 20px 20%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.contact--us {
+    padding: 0 20%;
+    font-size: 25px;
+    padding: 10%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+}
+
+.col-1 {
+    width: 40%;
+}
+
+.col-1 > ul > a {
+    color: white;
+}
+
+.col-2 {
+    width: 40%;
+}
+
+#dev-sign {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#dev-sign > a {
+    color: maroon;
+}
